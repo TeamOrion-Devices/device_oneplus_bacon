@@ -43,6 +43,12 @@ TARGET_BOARD_INFO_FILE ?= $(PLATFORM_PATH)/board-info.txt
 
 #Orion Additions
 BLOCK_BASED_OTA=false
+# Optimizations
+CLANG_O3 := true
+STRICT_ALIASING := false
+KRAIT_TUNINGS := false
+GRAPHITE_OPTS := false
+ENABLE_GCCONLY := true
 
 # Optimizations
 CLANG_O3 := true
