@@ -312,6 +312,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.default_network=9 \
     persist.sys.strictmode.disable=true
 
+PRODUCT_PACKAGES += \
+    SnapdragonCamera
 # Call the proprietary setup
 $(call inherit-product-if-exists, vendor/oneplus/bacon/bacon-vendor.mk)
 
