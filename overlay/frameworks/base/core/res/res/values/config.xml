@@ -38,7 +38,7 @@
 
     <!-- Control path for disabling the capacitive hardware keys, if they exist.
          For example: "/proc/touchpanel/keypad_enable"  -->
-    <string name="config_deviceHardwareKeysFilePath" translatable="false">/proc/touchpanel/keypad_enable</string>
+    <!--string name="config_deviceHardwareKeysFilePath" translatable="false">/proc/touchpanel/keypad_enable</string>-->
 
 
     <!-- Hardware keys present on the device with the ability to wake, stored as a bit field.
