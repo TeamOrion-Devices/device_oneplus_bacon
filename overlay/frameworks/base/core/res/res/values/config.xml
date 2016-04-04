@@ -402,6 +402,6 @@
     <integer name="config_outdoorAmbientLux">12000</integer> -->
 
     <!-- Show battery fully charged notification -->
-    <bool name="config_showBatteryFullyChargedNotification">true</bool>
+    <!--bool name="config_showBatteryFullyChargedNotification">true</bool>-->
 
 </resources>
